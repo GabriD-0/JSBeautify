@@ -1,4 +1,4 @@
-# Beautify
+# JSON Beautify
 
 ## Visão Geral
 
@@ -147,8 +147,3 @@ beautify/
       "message": "Error decoding JSON: Expecting value: line 1 column 1 (char 0)"
     }
     ```
-
-## Considerações Finais
-
-- **CORS:** O backend está configurado com CORS para permitir requisições do frontend.
-# -Beautify-
