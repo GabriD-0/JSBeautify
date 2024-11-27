@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: aquamarine;
+  color: blueviolet;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #282c34;
+  color: white;
+  padding: 22px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #5e72e4;
+  box-shadow: 0 0 0 2px #5e72e4;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #5e72e4;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+button:active {
+  background-color: #303f9f;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #5e72e4;
+}
